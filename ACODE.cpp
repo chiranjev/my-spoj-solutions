@@ -75,9 +75,9 @@ int main()
          }
       }
       cout << dp[len-1] << endl;
-      // for(i=0;i<len;i++)
-      //    cout << dp[i] << " ";
-      // cout << endl;
+      for(i=0;i<len;i++)
+         cout << dp[i] << " ";
+      cout << endl;
       cin >> str;
    }
 
